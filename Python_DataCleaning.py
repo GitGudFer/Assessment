@@ -57,5 +57,8 @@ transactions3['STORE_NAME'] = transactions3.apply(fill_store_name, axis=1)
 transactions3['PRODUCT_NAME'] = transactions3.apply(fill_product_name, axis=1)
 
 transactions3.loc[missingrows]
+transactions3.info()
+# Finally, exploring the rows that originally had missing values, we can see they have been correctly filled and we can now export the cleaned dataset
 
-# Finally, exploring the rows that originally had missing values, we can see they have been correctly filled
+transactions3.to_csv("transactions_cleaned.csv")
+
