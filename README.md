@@ -1,0 +1,2 @@
+The repository contains the Python code used to perform data cleaning over the original "Transactions data set" dataset, removing duplicates and filling in a correct pattern the missing values through functions and methods from the pandas library.
+It also contains a file with the SQL queries used to create and modify the dimension and fact tables, and some queries used to explore the metrics later visualized through Power BI.
